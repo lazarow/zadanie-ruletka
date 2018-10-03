@@ -31,6 +31,7 @@ Jeżeli gracz chce postawić zakład zewnętrzny, ma do wyboru następujące opc
 ### Wypłata
 
 Po zatrzymaniu się kulki krupier zabiera przegrane żetony i wypłaca nagrody za poprawne zakłady. Przez wypłatę rozumiany jest zwrot wpłaconych żetonów wraz z dodatkowymi żetonami wynikającymi z współczynnika wypłaty. Współczynnik wypłaty ma postać **1:5**, która oznacza, że za każdy wpłacony żeton gracz otrzyma 1 wpłacony żeton plus 5 dodatkowych, w sumie 6. Każdy rodzaj zakładu ma różny współczynnik wypłaty, co zostało przedstawione w poniższej tabeli:
+
 Zakład|Współczynnik wypłaty
 ------|--------------------
 Zakład na numery nieparzyste|1:1
