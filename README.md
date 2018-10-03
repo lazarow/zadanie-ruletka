@@ -49,7 +49,7 @@ Zakład na pojedyńczy numer|1:35
 
 ## Wytyczne do zadania
 
-Zaimplementuj grę w ruletkę wg. powyższych reguł. Program ma działać w trybie tekstowym. Gracz na start otrzymuje 100 żetonów i za pomocą komend tworzy zakłady (składnie komend tworzących zakład należy zdefiniować samemu). Wpisanie komendy *no more bets* uruchamia generator losowej liczby i rozliczba obstawione zakłady. Następnie program znów prosi gracza o zakłady i tak bez końca, chyba, że graczowi skończa się żetony, co jest równoznaczne z przegraną.
+Zaimplementuj grę w ruletkę wg. powyższych reguł. Program ma działać w trybie tekstowym. Gracz na start otrzymuje 100 żetonów i za pomocą komend tworzy zakłady (składnie komend tworzących zakład należy zdefiniować samemu). Wpisanie komendy *no more bets* uruchamia generator losowej liczby i rozliczba obstawione zakłady. Następnie program znów prosi gracza o zakłady i tak bez końca, chyba, że graczowi skończa się żetony, co jest równoznaczne z przegraną. Zakładamy brak limitów stołu.
 
 Implementacja kodu powinna spełniać zasady dobrego kodowania oraz być należycie wytestowana z pomocą automatycznych testów. 
 
