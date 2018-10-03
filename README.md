@@ -30,7 +30,7 @@ Jeżeli gracz chce postawić zakład zewnętrzny, ma do wyboru następujące opc
 
 ### Wypłata
 
-Po zatrzymaniu się kulki krupier zabiera przegrane żetony i wypłaca nagrody za poprawne zakłady. Przez wypłatę rozumiany jest zwrot wpłaconych żetonów wraz z dodatkowymi żetonami wynikającymi z współczynnika wypłaty. Współczynnik wypłaty ma postać **1:5**, która oznacza, że za każdy wpłacony żeton gracz otrzyma 1 wpłacony żeton plus 5 dodatkowych, w sumie 6. Każdy rodzaj zakładu ma różny współczynnik wypłaty, co zostało przedstawione w poniższej tabeli:
+Po zatrzymaniu się kulki krupier zabiera przegrane żetony i wypłaca nagrody za poprawne zakłady. Przez wypłatę rozumiany jest zwrot wpłaconych żetonów wraz z dodatkowymi żetonami wynikającymi z współczynnika wypłaty. Współczynnik wypłaty ma postać **1:5**, która oznacza, że za każdy postawiony żeton gracz otrzyma wpłacony żeton plus 5 dodatkowych, w sumie 6. Każdy rodzaj zakładu ma różny współczynnik wypłaty, co zostało przedstawione w poniższej tabeli:
 
 Zakład|Współczynnik wypłaty
 ------|--------------------
@@ -46,5 +46,11 @@ Zakład na cztery sąsiadujące ze sobą numery|1:8
 Zakład na trzy sąsiadujące ze sobą kolejno w linii numery|1:11
 Zakład na dwa sąsiadujące ze sobą numery|1:17
 Zakład na pojedyńczy numer|1:35
+
+## Wytyczne do zadania
+
+Zaimplementuj grę w ruletkę wg. powyższych reguł. Program ma działać w trybie tekstowym. Gracz na start otrzymuje 100 żetonów i za pomocą komend tworzy zakłady (składnie komend tworzących zakład należy zdefiniować samemu). Wpisanie komendy *no more bets* uruchamia generator losowej liczby i rozliczba obstawione zakłady. Następnie program znów prosi gracza o zakłady i tak bez końca, chyba, że graczowi skończa się żetony, co jest równoznaczne z przegraną.
+
+Implementacja kodu powinna spełniać zasady dobrego kodowania oraz być należycie wytestowana z pomocą automatycznych testów. 
 
 Grafika pochodzi z [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:European_roulette.svg).
