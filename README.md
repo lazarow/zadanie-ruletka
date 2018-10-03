@@ -18,11 +18,11 @@ W grze istnieją dwa warianty zakładów: wewnętrzne i zewnętrzne. Jeżeli gra
 - zakład na sześć sąsiadujących ze sobą numerów (_line_), są to dwa zakłady _street_ obok siebie, np. 7-8-9-10-11-12, 31-32-33-34-35-36.
 
 Jeżeli gracz chce postawić zakład zewnętrzny, ma do wyboru następujące opcje:
-- zakład na jedną z trzech kolumn (_column_) złożonych z 12 numerów, np. 1-4-7-10-13-16-19-22-25-28-31-34;
-- zakład na jedną z trzech grup numerów złożonych z dwunastu numerów (_dozen_) tj. od 1 do 12, od 13 do 24 i od 25 do 36;
+- zakład na jedną z trzech kolumn złożonych z tuzina numerów (_column_), np. 1-4-7-10-13-16-19-22-25-28-31-34;
+- zakład na jedną z trzech grup numerów złożonych z tuzina numerów (_dozen_) tj. od 1 do 12, od 13 do 24 i od 25 do 36;
 - zakład na wysokie numery (_high_), tj. od 19 do 36;
 - zakład na niskie numery (_low_), tj. od 1 do 18;
-- zakład na czarne lub czerwone kolory (_colour_), gdzie **0 nie ma koloru**;
+- zakład na czarny lub czerwony kolor (_colour_), gdzie **0 nie ma koloru**;
 - zakład na numery parzyste, ale wypadnięcie **0 przegrywa ten zakład** ;
 - zakład na numery nieparzyste;
 
@@ -30,6 +30,20 @@ Jeżeli gracz chce postawić zakład zewnętrzny, ma do wyboru następujące opc
 
 ### Wypłata
 
-
+Po zatrzymaniu się kulki krupier zabiera przegrane żetony i wypłaca nagrody za poprawne zakłady. Przez wypłatę rozumiany jest zwrot wpłaconych żetonów wraz z dodatkowymi żetonami wynikającymi z współczynnika wypłaty. Współczynnik wypłaty ma postać **1:5**, która oznacza, że za każdy wpłacony żeton gracz otrzyma 1 wpłacony żeton plus 5 dodatkowych, w sumie 6. Każdy rodzaj zakładu ma różny współczynnik wypłaty, co zostało przedstawione w poniższej tabeli:
+Zakład|Współczynnik wypłaty
+------|--------------------
+Zakład na numery nieparzyste|1:1
+Zakład na numery parzyste|1:1
+Zakład na czarny lub czerwony kolor|1:1
+Zakład na niskie numery|1:1
+Zakład na wysokie numery|1:1
+Zakład na jedną z trzech grup numerów złożonych z tuzina numerów|1:2
+Zakład na jedną z trzech kolumn złożonych z tuzina numerów|1:2
+Zakład na sześć sąsiadujących ze sobą numerów|1:5
+Zakład na cztery sąsiadujące ze sobą numery|1:8
+Zakład na trzy sąsiadujące ze sobą kolejno w linii numery|1:11
+Zakład na dwa sąsiadujące ze sobą numery|1:17
+Zakład na pojedyńczy numer|1:35
 
 Grafika pochodzi z [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:European_roulette.svg).
