@@ -1,6 +1,6 @@
 # Ruletka
 
-Celem zadania jest implementacja zasad gry w ruletkę. Reguły oparte zostały o wariant europejski gry.
+Celem zadania jest implementacja zasad gry w ruletkę. Reguły zostały oparte o wariant europejski gry.
 
 ## Reguły gry
 
